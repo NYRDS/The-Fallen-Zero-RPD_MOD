@@ -1,5 +1,5 @@
 {
-﻿"width":25,
+"width":25,
 "height":25,
 "map":[
  4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,
@@ -45,8 +45,8 @@
 {"kind":"PotionOfPurity","x":8,"y":23},
 {"kind":"PseudoPasty","x":7,"y":23},
 {"kind":"OverpricedRation","x":7,"y":12},
-{"kind":"ScrollOfChalenge","x":19,"y":22},
-{"kind":"RingOfThorns","x":19,"y":11},
+{"kind":"ScrollOfChallenge","x":19,"y":22},
+{"kind":"PotionOfStrength","x":9,"y":23},
 {"kind":"Codex","x":20,"y":9,"text":"Codex_story_td"}
 ]
 }
