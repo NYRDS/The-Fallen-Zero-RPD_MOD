@@ -1,9 +1,9 @@
 {
 "width":20,
 "height":20,
-"tiles":"tiles1_boss.png",
+"tiles":"Stockroom.png",
 "water":"water1.png",
-"rooms":["ARMORY","VAULT","WAREHOUSE","WEAK_FLOOR"],
+"rooms":["ARMORY","LABORATORY","WAREHOUSE","CRYPT"],
 "mobs":[
 {"kind":"Rat"},
 {"kind":"Rat"},
@@ -13,10 +13,10 @@
 {"kind":"Albino"}
 ],
 "items":[
-{"kind":"Gold"},
 {"kind":"RottenRation"},
+{"kind":"PotionOfStrength"},
 {"kind":"PseudoPasty"}
 ],
-"nMobs":6,
-"nTraps":3
+"nMobs":5,
+"nTraps":1
 }

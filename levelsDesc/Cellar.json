@@ -18,5 +18,8 @@
    "exit":[4,10],
    "items":[
     {"kind":"PotionOfHealing","x":2,"y":1}
+  ],
+  "objects":[
+  {"kind":"Sign","text":"TestersWelcome","x":5,"y":2}
   ]
 }

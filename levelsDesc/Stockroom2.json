@@ -1,9 +1,9 @@
 {
 "width":25,
 "height":25,
-"tiles":"tiles1_boss.png",
+"tiles":"Stockroom.png",
 "water":"water1.png",
-"rooms":["STORAGE","WAREHOUSE","PIT"],
+"rooms":["STORAGE","WAREHOUSE","TREASURY"],
 "mobs":[
 {"kind":"Rat"},
 {"kind":"Rat"},
@@ -17,12 +17,10 @@
 {"kind":"Rat"}
 ],
 "items":[
-{"kind":"Gold"},
 {"kind":"PotionOfPurity"},
 {"kind":"PotionOfStrength"},
 {"kind":"ScrollOfUpgrade"},
-{"kind":"Ration"},
-{"kind":"ScrollOfTerror"}
+{"kind":"Ration"}
 ],
 "nMobs":11,
 "nTraps":15
