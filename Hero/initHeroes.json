@@ -25,7 +25,7 @@
 			"identified": true
 		},
 		"quickslot": [{
-			"kind": "WandOfMagicMissle"
+			"kind": "WandOfMagicMissile"
 		}],
 		"items": [{
 			"kind": "Dagger"
