@@ -20,7 +20,7 @@
 	},
 	"MAGE": {
 		"weapon": {
-			"kind": "WandOfMagicMissle",
+			"kind": "WandOfMagicMissile",
 			"level": 1,
 			"identified": true
 		},
