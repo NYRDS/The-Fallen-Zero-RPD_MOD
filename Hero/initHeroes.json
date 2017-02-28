@@ -24,11 +24,11 @@
 		}]
 	},
 	"MAGE": {
-		"weapon": {
+		"items": [{
 			"kind": "WandOfMagicMissile",
 			"identified": true,
 			"level": 1
-		},
+		}],
 		"quickslot": [{
 			"kind": "WandOfMagicMissile"
 		}],
@@ -46,7 +46,7 @@
 			"identified": true
 		},
 		"knownItems": [{
-			"kind": "ScrollOfChalenge"
+			"kind": "ScrollOfChallenge"
 		}]
 	},
 	"HUNTRESS": {
