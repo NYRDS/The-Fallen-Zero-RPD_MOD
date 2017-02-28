@@ -24,11 +24,11 @@
 		}]
 	},
 	"MAGE": {
-		"weapon": {
+		"items": [{
 			"kind": "WandOfMagicMissile",
 			"identified": true,
 			"level": 1
-		},
+		}],
 		"quickslot": [{
 			"kind": "WandOfMagicMissile"
 		}],
