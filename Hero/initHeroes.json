@@ -81,7 +81,7 @@
 	},
 	"NECROMANCER": {
 		"weapon": {
-			"kind": "dagger",
+			"kind": "Dagger",
 			"identified": true
 		},
 		"items": [{
