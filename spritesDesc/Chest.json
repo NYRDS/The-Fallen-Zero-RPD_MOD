@@ -1,0 +1,9 @@
+{
+  "texture" : "chest.png",
+  "width"  : 16,
+  "height" : 16,
+  "idle"   : { "fps" : 25,  "looped" : true,     "frames" : [0] },
+  "run"    : { "fps" : 25, "looped" : true,     "frames" : [0] },
+  "attack" : { "fps" : 25, "looped" : false,    "frames" : [0] },
+  "die"    : { "fps" : 25, "looped" : false,    "frames" : [0] }
+}

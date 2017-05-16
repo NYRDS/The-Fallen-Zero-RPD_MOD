@@ -1,6 +1,6 @@
 {
-"RandomLevel":{
-"strg1":{"Albino":1},
-"strg2":{"Rat":4,"Albino":2}
-}
+   "PredesignedLevel":{
+      "1":{"Rat":1,"Gnoll":1,"Albino":1,"Crab":0.01},
+	  "2":{"Piranha":1}
+   }
 }

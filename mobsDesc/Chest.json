@@ -1,0 +1,17 @@
+{
+"defenseSkill":0,
+"attackSkill":0,
+"exp":0,
+"maxLvl":50,
+"dmgMin":0,
+"dmgMax":0,
+"dr":0,
+"baseSpeed":0,
+"attackDelay":99999,
+"ht":1,
+"name":"chest_name",
+"name_objective":"chest_objective",
+"description":"chest_desc",
+"gender":"masculine",
+"spriteDesc":"spritesDesc/Chest.json"
+}
