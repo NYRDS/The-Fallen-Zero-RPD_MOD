@@ -1,0 +1,17 @@
+{
+"defenseSkill":999,
+"attackSkill":0,
+"exp":0,
+"maxLvl":0,
+"dmgMin":0,
+"dmgMax":0,
+"dr":999,
+"baseSpeed":9999,
+"attackDelay":1,
+"ht":-1,
+"name":"pet_name",
+"name_objective":"pet_objective",
+"description":"pet_desc",
+"gender":"masculine",
+"spriteDesc":"spritesDesc/Pet.json"
+}

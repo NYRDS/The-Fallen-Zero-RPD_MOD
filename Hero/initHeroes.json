@@ -2,101 +2,21 @@
 	"common": {
 		"armor": {
 			"kind": "ClothArmor",
-			"identified": true,
-			"cursed": true
+			"identified": true
 		},
 		"items": [{
-			"kind": "RottenMeat",
-			"quantity": 1
+			"kind": "Ration",
+			"quantity": 2
 		}],
-		"str": 10,
-		"hp": 20
+        "str":10,
+        "hp":20
 	},
 	"WARRIOR": {
 		"weapon": {
 			"kind": "ShortSword",
-			"identified": true,
-			"cursed": true
-		},
-		"hp": 23,
-		"knownItems": [{
-			"kind": "PotionOfStrength"
-		}]
-	},
-	"MAGE": {
-		"items": [{
-			"kind": "WandOfMagicMissile",
-			"identified": true,
-			"level": 1
-		}],
-		"quickslot": [{
-			"kind": "WandOfMagicMissile"
-		}],
-		"knownItems": [{
-			"kind": "ScrollOfCurse"
-		}]
-	},
-	"ROGUE": {
-		"weapon": {
-			"kind": "Knuckles",
-			"cursed": true
-		},
-		"ring1": {
-			"kind": "RingOfShadows",
 			"identified": true
 		},
-		"knownItems": [{
-			"kind": "ScrollOfChallenge"
-		}]
-	},
-	"HUNTRESS": {
-		"weapon": {
-			"kind": "Dagger",
-			"level": 1,
-			"cursed": true
-		},
-		"items": [{
-			"kind": "Boomerang",
-			"identified": true
-		}],
-		"quickslot": [{
-			"kind": "Boomerang"
-		}],
-		"hp": 17
-	},
-	"ELF": {
-		"weapon": {
-			"kind": "WoodenBow",
-			"identified": true,
-			"level": 1
-		},
-		"items": [{
-			"kind": "CommonArrow",
-			"quantity": 30,
-			"identified": true
-		}],
-		"quickslot": [{
-			"kind": "CommonArrow"
-		}]
-	},
-	"NECROMANCER": {
-		"weapon": {
-			"kind": "Dagger",
-			"identified": true
-		},
-		"items": [{
-			"kind": "WandOfAmok",
-			"identified": true,
-			"level": -1
-		}],
-		"armor": {
-			"kind": "NecromancerRobe",
-			"identified": true
-		},
-		"quickslot": [{
-			"kind": "NecromancerRobe"
-		}, {
-			"kind": "WandOfAmok"
-		}]
+        "str":11,
+		"hp":15
 	}
 }

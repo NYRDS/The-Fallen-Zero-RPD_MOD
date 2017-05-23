@@ -1,0 +1,11 @@
+{ "entrance":[1, 1],
+ "height":7,
+ "map":[4, 4, 4, 4, 4, 4, 4, 4, 7, 1, 1, 1, 1, 4, 4, 1, 1, 1, 1, 1, 4, 4, 1, 1, 11, 1, 1, 4, 4, 1, 1, 1, 1, 1, 4, 4, 1, 1, 1, 1, 1, 4, 4, 4, 4, 4, 4, 4, 4],
+ "multiexit":[],
+ "tiles":"tiles0_x.png",
+ "water":"water0.png",
+ "width":7,
+ "items":[
+	{"kind":"WandOfMagicMissile","x":3,"y":3,"indentified":true,"level":1,"maxCharges":0,"charges":3}
+]
+}

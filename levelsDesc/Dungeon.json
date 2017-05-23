@@ -1,54 +1,20 @@
 {
-"Levels":{
-"0":{"kind":"SewerLevel","depth":0,"size":[0,0]},
-"cellar":{"kind":"PredesignedLevel","depth":1,"size":[7,11],"file":"levelsDesc/Cellar.json"},
-
-"fh":{"kind":"PredesignedLevel","depth":1,"size":[17,20],"file":"levelsDesc/FirstHall.json"},
-"strg1":{"kind":"RandomLevel","depth":2,"file":"levelsDesc/Stockroom1.json"},
-"strg2":{"kind":"RandomLevel","depth":3,"file":"levelsDesc/Stockroom2.json"},
-
-"pb":{"kind":"PredesignedLevel","depth":4,"size":[27,28],"file":"levelsDesc/PseudoBoss.json"},
-"b1":{"kind":"PredesignedLevel","depth":5,"size":[23,23],"file":"levelsDesc/Boss1.json","music":"Ambient.mp3"},
-
-"m1":{"kind":"PredesignedLevel","depth":6,"size":[16,16],"file":"levelsDesc/Maze1.json"},
-"m2":{"kind":"PredesignedLevel","depth":7,"size":[16,16],"file":"levelsDesc/Maze2.json"},
-"m3":{"kind":"PredesignedLevel","depth":8,"size":[15,30],"file":"levelsDesc/Maze3.json"},
-"m4":{"kind":"PredesignedLevel","depth":9,"size":[30,30],"file":"levelsDesc/Maze4.json"},
-
-"s1":{"kind":"PredesignedLevel","depth":6,"size":[19,19],"file":"levelsDesc/Station1.json"},
-"s2":{"kind":"PredesignedLevel","depth":7,"size":[20,20],"file":"levelsDesc/Station2.json"},
-"s3":{"kind":"PredesignedLevel","depth":8,"size":[17,17],"file":"levelsDesc/Station3.json"},
-"s3_1":{"kind":"PredesignedLevel","depth":8,"size":[5,6],"file":"levelsDesc/Station3_1.json"},
-"s4":{"kind":"PredesignedLevel","depth":9,"size":[25,25],"file":"levelsDesc/Station4.json"},
-
-"b_s":{"kind":"PredesignedLevel","depth":10,"size":[25,25],"file":"levelsDesc/Boss_station.json"},
-
-"sc1":{"kind":"PredesignedLevel","depth":11,"size":[25,25],"file":"levelsDesc/SunkenCitadel1.json"},
-"sc2":{"kind":"PredesignedLevel","depth":12,"size":[32,32],"file":"levelsDesc/SunkenCitadel2.json"},
-
-"skull":{"kind":"PredesignedLevel","depth":16,"size":[25,25],"file":"levelsDesc/Def1.json"}
-},
-"Graph":{
-"0":[["cellar"],[]],
-"cellar":[["fh"],["0"]],
-"fh":[["strg1"],["s2"]],
-"strg1":[["strg2"],["fh"]],
-"strg2":[["pb","m1"],["strg1"]],
-"pb":[["b1"],["strg2"]],
-"b1":[["s1"],["pb"]],
-"m1":[["m2"],["strg2"],[2]],
-"m2":[["m3"],["m1"]],
-"m3":[["m4"],["m2"]],
-"m4":[[],["m3"]],
-"s1":[["s2"],["b1"]],
-"s2":[["s3","fh","0"],["s1"]],
-"s3":[["s4","b_s","sc1"],["s2"]],
-"s3_1":[["s3"],["s3"],[2]],
-"s4":[["b_s"],["s3"]],
-"b_s":[["s3_1"],["s4"]],
-"sc1":[["sc2"],["s3"],[3]],
-"sc2":[["skull","skull"],["sc1"]],
-"skull":[["cellar"],["sc2"]]
-},
-"Entrance":"0"
+	"Levels":{
+	  "Dead":{"kind":"DeadEndLevel","depth":0,"size":[7,7]},
+      "0":{"kind":"SewerLevel","depth":0,"size":[0,0]},
+	  "1":{"kind":"PredesignedLevel","depth":1,"size":[49,49],"file":"levelsDesc/1.json"},
+	  "1_extra":{"kind":"PredesignedLevel","depth":1,"size":[5,5],"file":"levelsDesc/1_extra.json"},
+	  "1_treasure":{"kind":"PredesignedLevel","depth":1,"size":[7,7],"file":"levelsDesc/1_treasure.json"},
+	  "2":{"kind":"PredesignedLevel","depth":2,"size":[51,51],"file":"levelsDesc/2.json"},
+	  "3":{"kind":"PredesignedLevel","depth":3,"size":[55,55],"file":"levelsDesc/3.json"}
+	},
+	"Graph":{
+	"0":[["1"],[]],
+	"1":[["Dead","1_extra","1_treasure","1_extra","2"],["0"]],
+	"1_extra":[["1"],["1"],[4]],
+	"1_treasure":[[],["1"],[3]],
+	"2":[["3"],["1"],[5]],
+	"3":[["Dead"],["2"]]
+	},
+	"Entrance":"0"
 }

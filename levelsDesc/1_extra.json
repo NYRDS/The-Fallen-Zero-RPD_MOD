@@ -1,0 +1,11 @@
+{ "entrance":[1, 1],
+ "height":5,
+ "map":[4, 4, 4, 4, 4, 4, 7, 1, 1, 4, 4, 1, 1, 1, 4, 4, 1, 1, 8, 4, 4, 4, 4, 4, 4],
+ "exit":[3,3],
+ "tiles":"tiles0_x.png",
+ "water":"water0.png",
+ "width":5,
+ "mobs":[
+ {"kind":"Pet","x":2,"y":1}
+ ]
+}
