@@ -1,6 +1,6 @@
 {
 	"Levels":{
-	  "Dead":{"kind":"DeadEndLevel","depth":0,"size":[7,7]},
+	  "Dead":{"kind":"PredesignedLevel","depth":0,"size":[3,3],"file":"levelsDesc/Dead.json"},
       "0":{"kind":"SewerLevel","depth":0,"size":[0,0]},
 	  "1":{"kind":"PredesignedLevel","depth":1,"size":[49,49],"file":"levelsDesc/1.json"},
 	  "1_extra":{"kind":"PredesignedLevel","depth":1,"size":[5,5],"file":"levelsDesc/1_extra.json"},
@@ -11,6 +11,7 @@
 	"Graph":{
 	"0":[["1"],[]],
 	"1":[["Dead","1_extra","1_treasure","1_extra","2"],["0"]],
+	"Dead":[["1"],["Dead"]],
 	"1_extra":[["1"],["1"],[4]],
 	"1_treasure":[[],["1"],[3]],
 	"2":[["3"],["1"],[5]],
