@@ -1,12 +1,13 @@
 {
 	"Levels":{
-	  "Dead":{"kind":"PredesignedLevel","depth":0,"size":[3,3],"file":"levelsDesc/Dead.json"},
+	  "Dead":{"kind":"PredesignedLevel","depth":0,"size":[3,3],"file":"levelsDesc/Dead.json","viewDistance":1},
       "0":{"kind":"SewerLevel","depth":0,"size":[0,0]},
-	  "1":{"kind":"PredesignedLevel","depth":1,"size":[49,49],"file":"levelsDesc/1.json"},
-	  "1_extra":{"kind":"PredesignedLevel","depth":1,"size":[5,5],"file":"levelsDesc/1_extra.json"},
-	  "1_treasure":{"kind":"PredesignedLevel","depth":1,"size":[7,7],"file":"levelsDesc/1_treasure.json"},
-	  "2":{"kind":"PredesignedLevel","depth":2,"size":[51,51],"file":"levelsDesc/2.json"},
-	  "3":{"kind":"PredesignedLevel","depth":3,"size":[55,55],"file":"levelsDesc/3.json"}
+	  "1":{"kind":"PredesignedLevel","depth":1,"size":[49,49],"file":"levelsDesc/1.json","viewDistance":7},
+	  "1_extra":{"kind":"PredesignedLevel","depth":1,"size":[5,5],"file":"levelsDesc/1_extra.json","viewDistance":7},
+	  "1_treasure":{"kind":"PredesignedLevel","depth":1,"size":[7,7],"file":"levelsDesc/1_treasure.json","viewDistance":7},
+	  "2":{"kind":"PredesignedLevel","depth":2,"size":[51,51],"file":"levelsDesc/2.json","viewDistance":6},
+	  "3":{"kind":"PredesignedLevel","depth":3,"size":[55,55],"file":"levelsDesc/3.json","viewDistance":6},
+	  "4":{"kind":"PredesignedLevel","depth":4,"size":[51,51],"file":"levelsDesc/4.json","viewDistance":5}
 	},
 	"Graph":{
 	"0":[["1"],[]],
@@ -15,7 +16,8 @@
 	"1_extra":[["1"],["1"],[4]],
 	"1_treasure":[[],["1"],[3]],
 	"2":[["3"],["1"],[5]],
-	"3":[["Dead"],["2"]]
+	"3":[["4"],["2"]],
+	"4":[["Daed"],["3"]]
 	},
 	"Entrance":"0"
 }

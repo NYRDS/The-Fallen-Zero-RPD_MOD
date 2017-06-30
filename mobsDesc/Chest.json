@@ -9,6 +9,8 @@
 "baseSpeed":0,
 "attackDelay":99999,
 "ht":1,
+"canBePat":false,
+"viewDistance":0,
 "name":"chest_name",
 "name_objective":"chest_objective",
 "description":"chest_desc",

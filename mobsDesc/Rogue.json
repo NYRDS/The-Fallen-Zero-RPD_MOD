@@ -1,7 +1,7 @@
 {
 "defenseSkill":25,
 "attackSkill":25,
-"exp":25,
+"exp":10,
 "maxLvl":20,
 "dmgMin":5,
 "dmgMax":25,
