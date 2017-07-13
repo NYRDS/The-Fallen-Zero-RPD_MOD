@@ -25,7 +25,7 @@
  {"x":45,"y":39,"kind":"Bandit","level":{"kind":"Dewdrop","quantity":5}},
  {"x":48,"y":43,"kind":"SpiritOfStoneBlood"},
  {"x":46,"y":36,"kind":"Bat"},
- {"x":52,"y":33,"kind":"Thief"},
+ {"x":52,"y":33,"kind":"Thief","loot":{"kind":"IronKey"}},
  {"x":52,"y":29,"kind":"Bat"},
  {"x":47,"y":24,"kind":"AirElemental","level":6},
  {"x":48,"y":22,"kind":"Shaman","loot":{"kind":"Gold"}},

@@ -9,7 +9,7 @@
 	"water": "water0.png",
 	"width": 51,
 	"objects": [{
-		"kind": "ConcreateBlock",
+		"kind": "ConcreteBlock",
 		"str": 14,
 		"x": 31,
 		"y": 46

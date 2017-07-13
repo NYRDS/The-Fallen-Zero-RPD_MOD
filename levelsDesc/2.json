@@ -95,5 +95,8 @@
  {"kind":"Goo","x":38,"y":42,"level":6,"loot":{"kind":"PotionOfHealing","quantity":2}},
  {"kind":"Slime","x":38,"y":41},
  {"kind":"Slime","x":38,"y":43}
+ ],
+ "items":[
+ {"kind":"MailArmor","identified":true,"x"4,"y":48}
  ]
  }

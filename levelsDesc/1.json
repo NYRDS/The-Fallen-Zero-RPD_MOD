@@ -6,6 +6,7 @@
  "water":"water0.png",
  "width":49,
  "mobs":[
+	{"kind":"TownsfolkSilentNPC","x":5,"y":18},
 	{"kind":"PlagueDoctorNPC","x":2,"y":18},
 	{"kind":"Rat","x":4,"y":11},
 	{"kind":"Rat","x":1,"y":1},
@@ -36,7 +37,7 @@
 	{"kind":"Shaman","x":16,"y":23,"loot":{"kind":"Gold"}},
 	{"kind":"Albino","x":26,"y":12},
 	{"kind":"Shaman","x":27,"y":4,"loot":{"kind":"ScrollOfUpgrade"}},
-	{"kind":"Shaman","x":30,"y":5,"loot":{"kind":"ShortSword","level":1,"identified":true,"enchantment":"Piercing"}},
+	{"kind":"Shaman","x":30,"y":5,"loot":{"kind":"ShortSword","level":1,"identified":true,"enchantment":"Leech"}},
 	{"kind":"Rat","x":26,"y":5},
 	{"kind":"Shaman","x":26,"y":6,"loot":{"kind":"RottenPasty"}},
 	{"kind":"Albino","x":27,"y":6},
@@ -111,6 +112,6 @@
 	{"kind":"TrueRatKing","x":44,"y":43,"level":6}
 ],
  "items":[
-	{"kind":"Boomerang","x":27,"y":20,"identified":true,"level":1}
+	{"kind":"Pasty","x":27,"y":20}
 ]
 }
