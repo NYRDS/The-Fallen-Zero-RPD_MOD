@@ -5,7 +5,7 @@
 	"multiexit": [
 		[12, 12]
 	],
-	"tiles": "tiles0_x.png",
+	"tiles": "tiles1_x.png",
 	"water": "water0.png",
 	"width": 51,
 	"objects": [{
