@@ -4,9 +4,9 @@
 ["HeroClass_War","barbarian"],
 ["HeroClass_WarPerks","Barbarians start with 18 point of health and 11 points of strength.","Barbarians start with barbariabn hatchet, that can sharpen another weapon.","Barbarians too cool to use ranged weapons and that means thet they are less proficient with missile weapons.","Any piece of food restores some health when eaten."],
 ["HeroSubClass_NameGlad","black'n'white"],
-["HeroSubClass_DescGlad","A successful attack with a melee weapon allows the _Nlack'n'white_ to start a combo, in which every next successful hit inflicts more damage."],
+["HeroSubClass_DescGlad","_Black'n'white_ - hero is discolored"],
 ["HeroSubClass_NameBers","inverted"],
-["HeroSubClass_DescBers","When severely wounded, the _Inverted_ enters a state of wild fury significantly increasing his damage output."],
+["HeroSubClass_DescBers","_Inverted_ - heroe's colors is inverted"],
 ["WandOfMagicMissile_Name","\"Dummy\""]
 ["WandOfMagicMissile_Info","This wand received its name for the ability to \"empty\" its magical powers and upgrading other wand, if the \"Dummy\" is already upgraded. For a fight, it also fits."]
 ["WandOfMagicMissile_ACDisenchan","USE"],
