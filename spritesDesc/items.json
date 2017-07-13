@@ -50,5 +50,9 @@
 "TomeOfMastery":{
 "file":"items/ColorEditor.png",
 "index":0
+},
+"ShortSword":{
+"file":"items/swords.png",
+"index":0
 }
 }
